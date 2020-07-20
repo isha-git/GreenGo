@@ -5,8 +5,13 @@ The main objective of the project is to develop an autonomous system to avoid th
 
 2. Emergency vehicles (such as ambulance) have been detected using OpenCV for better automated prioritization of vehicles.
 
-<!--Machine Learning algorithms have been proposed to predict the traffic on a road throughout the day so that traffic management strategies can be planned accordingly.<br>
-Further, emergency vehicles (such as ambulance) have been detected using OpenCV for better automated prioritization of vehicles.>
+**Machine Learning Algorithm**
+
+We have used Decision Trees to train our dataset which looks like:
+
+Python is used to implement the code using Weka which is a Machine Learning library. It takes the dataset input in 'arff' format, that is why we converted the csv format to arff using the Weka web application. With the limited dataset, our model provided an accuracy of 60%, however, will a large dataset, it can be improved significantly. The given code runs fine with Python version 2.7. You need to install weka library using the pip command before running the code.
+
+The output will look something like this:
 
 
 <!-- # Traffic Prediction
