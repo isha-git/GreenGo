@@ -9,11 +9,15 @@ The main objective of the project is to develop an autonomous system to avoid th
 
 We have used Decision Trees to train our dataset which looks like:
 
+<img src = "https://github.com/isha-git/Traffic-Management-and-Emergency-Vehicle-Detection/blob/master/images/TrafficDataset.PNG" width=200>
+
 Python is used to implement the code using Weka which is a Machine Learning library. It takes the dataset input in 'arff' format, that is why we converted the csv format to arff using the Weka web application. With the limited dataset, our model provided an accuracy of 60%, however, will a large dataset, it can be improved significantly. The given code runs fine with Python version 2.7. You need to install weka library using the pip command before running the code.
 
 The output will look something like this:
 
+<img src = "https://github.com/isha-git/Traffic-Management-and-Emergency-Vehicle-Detection/blob/master/images/TrafficPredicted.PNG" width=400>
+
 
 <!-- # Traffic Prediction
 Decision trees are trained on the dataset provided by the counters. Our current model has been trained on a data of 1 year. Since, data has been collected every 3 hours, that leads to a total entries of 2920. Training a machine on large amount of data results in better outcome. Our current model provides an accuracy of 60 percent. However, with the passage of time, as more data is collected, accuracy will exponentially increase.
-The general form of a decision tree is illustrated below:>
+The general form of a decision tree is illustrated below:!>
