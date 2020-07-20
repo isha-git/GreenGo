@@ -25,4 +25,5 @@ We are detecting emergency vehicles using OpenCV in Python. A dataset of sample 
 
 One could also use augmentation to increase the size of the dataset. 
 
-For creating an XML file, we have taken a reference from: https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/
+**Note:** For creating an XML file, we have taken a reference from this <a href="https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/">blog</a>
+
