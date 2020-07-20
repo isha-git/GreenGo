@@ -1,11 +1,11 @@
 # Traffic Management and Emergency Vehicle Detection
 
 The main objective of the project is to develop an autonomous system to avoid the need of a timer based system in India. The following work has been done in the arena:
-1. Machine Learning algorithms have been proposed to predict the traffic on a road throughout the day so that traffic management strategies can be planned accordingly.
+1. Machine Learning algorithms have been used to predict the traffic on a road throughout the day so that traffic management strategies can be planned accordingly.
 
 2. Emergency vehicles (such as ambulance) have been detected using OpenCV for better automated prioritization of vehicles.
 
-**Machine Learning Algorithm**
+# Traffic Prediction
 
 We have used Decision Trees to train our dataset which looks like:
 
@@ -17,7 +17,7 @@ The output will look something like this:
 
 <img src = "https://github.com/isha-git/Traffic-Management-and-Emergency-Vehicle-Detection/blob/master/images/TrafficPredicted.PNG" width=400>
 
-**Detecting Emergency Vehicles**
+# Detecting Emergency Vehicles
 
 We are detecting emergency vehicles using OpenCV in Python. A dataset of sample 1000 Ambulance images has been developed. Later, a vector is created for the training of data. Training is done using the classifiers provided by OpenCV. Haar Cascade is one such classifier. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images. Multiple stages of training takes place and this algorithm approximately took 3 hour to develop a suitable xml file of 10 stages as our training dataset. A video is then passed as the test video to check whether the algorithm detects the ambulance accurately. Here are the screenshots of the image detection:
 
