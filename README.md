@@ -17,7 +17,12 @@ The output will look something like this:
 
 <img src = "https://github.com/isha-git/Traffic-Management-and-Emergency-Vehicle-Detection/blob/master/images/TrafficPredicted.PNG" width=400>
 
+**Detecting Emergency Vehicles**
 
-<!-- # Traffic Prediction
-Decision trees are trained on the dataset provided by the counters. Our current model has been trained on a data of 1 year. Since, data has been collected every 3 hours, that leads to a total entries of 2920. Training a machine on large amount of data results in better outcome. Our current model provides an accuracy of 60 percent. However, with the passage of time, as more data is collected, accuracy will exponentially increase.
-The general form of a decision tree is illustrated below:!>
+We are detecting emergency vehicles using OpenCV in Python. A dataset of sample 1000 Ambulance images has been developed. Later, a vector is created for the training of data. Training is done using the classifiers provided by OpenCV. Haar Cascade is one such classifier. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images. Multiple stages of training takes place and this algorithm approximately took 3 hour to develop a suitable xml file of 10 stages as our training dataset. A video is then passed as the test video to check whether the algorithm detects the ambulance accurately. Here are the screenshots of the image detection:
+
+<img src="https://github.com/isha-git/GreenGo/blob/master/images/AmbulanceDetection.PNG" width=400>
+
+One could also use augmentation to increase the size of the dataset. 
+
+For creating an XML file, we have taken a reference from: https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/
